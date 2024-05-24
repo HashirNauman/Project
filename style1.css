@@ -1,0 +1,4 @@
+.background {
+    -fx-background-image: url("Ball.jpg");
+    -fx-background-size: cover;
+}

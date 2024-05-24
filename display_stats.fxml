@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="DisplayStatsController">
+    <VBox alignment="CENTER" prefHeight="295.0" prefWidth="201.0" spacing="10">
+        <Label fx:id="nameLabel" text="Name"/>
+        <Label fx:id="ageLabel" text="Age: "/>
+        <Label fx:id="matchesLabel" text="Matches: "/>
+        <Label fx:id="additionalStatsLabel1" text=""/>
+        <Label fx:id="additionalStatsLabel2" text=""/>
+        <Label fx:id="additionalStatsLabel3" text=""/>
+        <Label fx:id="additionalStatsLabel4" text=""/>
+        <Label fx:id="additionalStatsLabel5" text=""/>
+        <Label fx:id="additionalStatsLabel6" text=""/>
+        <Label fx:id="additionalStatsLabel7" text=""/>
+        <Button onAction="#handleClose" text="Close"/>
+    </VBox>
+</ScrollPane>

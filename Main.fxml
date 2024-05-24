@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="BOTTOM_RIGHT" prefHeight="313.0" prefWidth="584.0" styleClass="background" stylesheets="@style.css"
+      xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="304.0" prefWidth="599.0"
+           text="Cricket Statistics Updater" textFill="#5ab1e0">
+        <font>
+            <Font name="Vineta BT" size="21.0"/>
+        </font>
+    </Label>
+    <Label alignment="CENTER" prefHeight="27.0" prefWidth="600.0"
+           text="Welcome to the Cricket Statistics Updater, the platform which will allow the cricketers update and store their"
+           textFill="#0af238"/>
+    <Label alignment="CENTER" prefHeight="64.0" prefWidth="600.0"
+           text="Statistics. This  will also allow wicketKeeper besides batsman and bowler to use this platform"
+           textFill="#00ff2b"/>
+    <Label alignment="CENTER" prefHeight="35.0" prefWidth="600.0" text="Click Update to Continue" textFill="#00ff15"/>
+    <Button fx:id="updateStatsButton" prefHeight="3.0" prefWidth="123.0" text="Update Stats"/>
+</VBox>
